@@ -1,4 +1,4 @@
-function doDecode(data, string, shift) {
+function doDecode(string, shift) {
   const alphabet = 'abcdefghijklmnopqrstuvwxyz';
   for (let i = 0; i < string.length; i++) {
     let char = /[A-Z]/.test(string[i]);
